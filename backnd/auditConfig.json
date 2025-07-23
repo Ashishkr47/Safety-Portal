@@ -1,0 +1,65 @@
+{
+  "PressureVessel": {
+    "frequency": "monthly",
+    "responsibles": ["pressure1@example.com", "pressure2@example.com"]
+  },
+  "Forklift": {
+    "frequency": "monthly",
+    "responsibles": ["forklift1@example.com", "forklift2@example.com"]
+  },
+  "FireExtinguisher": {
+    "frequency": "monthly",
+  
+    "responsibles": ["extinguisher1@example.com", "extinguisher2@example.com"]
+  },
+  "HoseReel&FireHydrant": {
+    "frequency": "monthly",
+   
+    "responsibles": ["hydrant1@example.com", "hydrant2@example.com"]
+  },
+  "FirePumpHouse,Alarm&SmokeDetectors": { 
+    "frequency": "monthly",
+  
+    "responsibles": ["firepump1@example.com", "firepump2@example.com"]
+  },
+  "LiftingTools": {
+    "frequency": "monthly",
+  
+    "responsibles": ["tools1@example.com", "tools2@example.com"]
+  },
+  "PortableElectricTools": {
+    "frequency": "monthly",
+   
+    "responsibles": ["portable1@example.com", "portable2@example.com"]
+  },
+  "EOTCraneInspection": {
+    "frequency": "monthly",
+  
+    "responsibles": ["crane1@example.com", "crane2@example.com"]
+  },
+  "MachineGuarding": {
+    "frequency": "monthly",
+    
+    "responsibles": ["guarding1@example.com", "guarding2@example.com"]
+  },
+  "FirstAidBoxes": {
+    "frequency": "monthly",
+ 
+    "responsibles": ["firstaid1@example.com", "firstaid2@example.com"]
+  },
+  "PPESpotSurvey": {
+    "frequency": "fortnightly",
+  
+    "responsibles": ["ppe1@example.com", "ppe2@example.com"]
+  },
+  "DieselandOilStorage": {
+    "frequency": "monthly",
+  
+    "responsibles": ["diesel1@example.com", "diesel2@example.com"]
+  },
+  "SafetyBelt/FallProtection": {
+    "frequency": "monthly",
+    
+    "responsibles": ["ashishkumar12.ak50@gmail.com"]
+  }
+}

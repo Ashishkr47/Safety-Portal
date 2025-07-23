@@ -1,0 +1,639 @@
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-19',
+  PortableTools: '2025-06-19',
+  Forklift: '2025-05-27',
+  LiftingTools: '2025-06-21',
+  PortableElectricTools: '2025-06-19',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-19',
+  'HoseReel&FireHydrant': '2025-06-19',
+  MachineGuarding: '2025-06-19',
+  DieselandOilStorage: '2025-06-19',
+  FirstAidBoxes: '2025-06-19',
+  'SafetyBelt/FallProtection': '2025-05-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-19',
+  EOTCraneInspection: '2025-06-20'
+}
+❌ Failed to send email to ashishkumar12.ak50@gmail.com: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7490a626ef7sm3266905b3a.81 - gsmtp
+    at SMTPConnection._formatError (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7490a626ef7sm3266905b3a.81 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-19',
+  PortableTools: '2025-06-19',
+  Forklift: '2025-05-27',
+  LiftingTools: '2025-06-21',
+  PortableElectricTools: '2025-06-19',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-19',
+  'HoseReel&FireHydrant': '2025-06-19',
+  MachineGuarding: '2025-06-19',
+  DieselandOilStorage: '2025-06-19',
+  FirstAidBoxes: '2025-06-19',
+  'SafetyBelt/FallProtection': '2025-05-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-19',
+  EOTCraneInspection: '2025-06-20'
+}
+❌ Failed to send email to ashishkumar12.ak50@gmail.com: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b31f119f124sm2952223a12.32 - gsmtp
+    at SMTPConnection._formatError (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (D:\Safety\safety-portal\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b31f119f124sm2952223a12.32 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-19',
+  PortableTools: '2025-06-19',
+  Forklift: '2025-05-27',
+  LiftingTools: '2025-06-21',
+  PortableElectricTools: '2025-06-19',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-19',
+  'HoseReel&FireHydrant': '2025-06-19',
+  MachineGuarding: '2025-06-19',
+  DieselandOilStorage: '2025-06-19',
+  FirstAidBoxes: '2025-06-19',
+  'SafetyBelt/FallProtection': '2025-05-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-19',
+  EOTCraneInspection: '2025-06-20'
+}
+✅ Email sent to ashishkumar12.ak50@gmail.com
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-21',
+  PortableTools: '2025-06-21',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-21',
+  PortableElectricTools: '2025-06-21',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-21',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-21',
+  PortableTools: '2025-06-21',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-21',
+  PortableElectricTools: '2025-06-21',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-21',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+✅ Email sent to ppe1@example.com
+✅ Email sent to ppe2@example.com
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+✅ Email sent to ppe1@example.com
+✅ Email sent to ppe2@example.com
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+❌ Failed to send email to extinguisher1@example.com: Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ESOCKET',
+  syscall: 'read',
+  command: 'CONN'
+}
+❌ Failed to send email to extinguisher2@example.com: Error: connect EACCES 142.250.27.108:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  errno: -4092,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '142.250.27.108',
+  port: 465,
+  command: 'CONN'
+}
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+✅ Email sent to extinguisher1@example.com
+✅ Email sent to extinguisher2@example.com
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+✅ Email sent to pressure1@example.com
+✅ Email sent to pressure2@example.com
+✅ Email sent to forklift1@example.com
+✅ Email sent to forklift2@example.com
+✅ Email sent to hydrant1@example.com
+✅ Email sent to hydrant2@example.com
+✅ Email sent to firepump1@example.com
+✅ Email sent to firepump2@example.com
+✅ Email sent to crane1@example.com
+✅ Email sent to crane2@example.com
+✅ Email sent to guarding1@example.com
+✅ Email sent to guarding2@example.com
+✅ Email sent to firstaid1@example.com
+✅ Email sent to firstaid2@example.com
+✅ Email sent to ashishkumar12.ak50@gmail.com
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+✅ Email sent to pressure1@example.com
+✅ Email sent to pressure2@example.com
+✅ Email sent to forklift1@example.com
+✅ Email sent to forklift2@example.com
+✅ Email sent to hydrant1@example.com
+✅ Email sent to hydrant2@example.com
+✅ Email sent to firepump1@example.com
+✅ Email sent to firepump2@example.com
+✅ Email sent to crane1@example.com
+✅ Email sent to crane2@example.com
+✅ Email sent to guarding1@example.com
+✅ Email sent to guarding2@example.com
+✅ Email sent to firstaid1@example.com
+✅ Email sent to firstaid2@example.com
+✅ Email sent to ashishkumar12.ak50@gmail.com
+📄 Loaded lastAuditDates: {
+  PPESpotSurvey: '2025-06-23',
+  PortableTools: '2025-06-23',
+  Forklift: '2025-06-21',
+  LiftingTools: '2025-06-23',
+  PortableElectricTools: '2025-06-23',
+  FireExtinguisher: '2025-06-19',
+  PressureVessel: '2025-06-21',
+  'HoseReel&FireHydrant': '2025-06-21',
+  MachineGuarding: '2025-06-21',
+  DieselandOilStorage: '2025-06-23',
+  FirstAidBoxes: '2025-06-21',
+  'SafetyBelt/FallProtection': '2025-06-21',
+  'FirePumpHouse,Alarm&SmokeDetectors': '2025-06-21',
+  EOTCraneInspection: '2025-06-21'
+}
+✅ Email sent to tools1@example.com
+✅ Email sent to tools2@example.com
+✅ Email sent to portable1@example.com
+✅ Email sent to portable2@example.com
+✅ Email sent to diesel1@example.com
+✅ Email sent to diesel2@example.com
