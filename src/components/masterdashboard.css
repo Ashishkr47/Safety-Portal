@@ -1,0 +1,135 @@
+/* MasterDashboard.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.dashboard-container h2 {
+  font-size: 32px;
+  color: #2c3e50;
+  border-left: 6px solid #0077b6;
+  padding-left: 12px;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.filters label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.filters select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 14px;
+  min-width: 120px;
+  transition: all 0.2s ease;
+}
+
+.filters select:hover {
+  border-color: #0077b6;
+}
+
+.chart-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead {
+  background-color: #0077b6;
+  color: #010101;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+table th, table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Optional: highlight issue types */
+td.status-not-ok {
+  background-color: #ffe6e6;
+  color: #b71c1c;
+  font-weight: bold;
+}
+
+td.status-ok {
+  background-color: #e0f7e9;
+  color: #256029;
+  font-weight: 500;
+}
+
+td.status-no {
+  background-color: #fff3cd;
+  color: #856404;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  table th, table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .dashboard-container h2 {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+}

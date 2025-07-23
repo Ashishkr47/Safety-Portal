@@ -1,0 +1,16 @@
+.training-dashboard h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.training-dashboard table th,
+.training-dashboard table td {
+  text-align: center;
+}
+
+.training-dashboard .filters select,
+.training-dashboard .filters input {
+  padding: 6px;
+  font-size: 14px;
+}

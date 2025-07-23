@@ -1,0 +1,15 @@
+.forklift-audit-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.audit-question {
+    margin: 15px 0;
+}
+
+.responsible-info input {
+    margin: 5px;
+    display: block;
+    width: 100%;
+}

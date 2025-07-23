@@ -1,0 +1,110 @@
+/* Container and general layout */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+}
+
+.main-section {
+  flex: 1;
+  padding: 20px;
+  margin-left: 0; /* Remove left margin to bring the content closer */
+  background-color: #f4f6f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px; /* Adjust top margin if needed */
+}
+
+.dashboard-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #5c0000;
+  margin-bottom: 20px;
+}
+
+/* User profile section */
+.user-profile {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.user-profile-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-details p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.loading-text {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Button Styles */
+.dashboard-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  gap: 15px;
+  margin-top: 20px;
+  justify-items: stretch; /* Ensures buttons stretch to fill column */
+}
+
+.dashboard-btn {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  height: 60px;             /* Fixed height for uniformity */
+  width: 100%;              /* Stretch to fill column width */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;      /* Prevent awkward line breaks */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dashboard-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.dashboard-btn:focus {
+  outline: none;
+}
+
+.dashboard-btn:active {
+  transform: translateY(1px);
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .dashboard-buttons {
+    grid-template-columns: 1fr 1fr; /* 2 columns on small screens */
+  }
+
+  .dashboard-btn {
+    font-size: 1rem;
+    height: 50px;
+  }
+}

@@ -1,0 +1,40 @@
+.first-aid-form {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .location-section {
+    margin-bottom: 30px;
+  }
+  
+  .audit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .audit-table th, .audit-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .audit-table th {
+    background-color: #f4f4f4;
+  }
+  
+  input[type="number"], input[type="text"], select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

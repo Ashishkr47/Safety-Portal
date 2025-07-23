@@ -1,0 +1,173 @@
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const fs = require("fs");
+const XLSX = require("xlsx");
+const axios = require("axios");
+const { v4: uuidv4 } = require("uuid");
+
+const app = express();
+const port = 5000;
+
+app.use(cors());
+app.use(bodyParser.json());
+
+const excelFilePath = "incidents.xlsx";
+const sheetName = "Incidents";
+
+// Send email using Microsoft Graph API
+const sendEmailViaGraph = async (userToken, incidentId, incident) => {
+  const updateLink = `http://localhost:3000/update-incident/${incidentId}`;
+
+  try {
+    const emailData = {
+      message: {
+        subject: "New Safety Incident Reported",
+        body: {
+          contentType: "Text",
+          content: `Hello,
+
+A new safety incident has been reported.
+
+Reported By: ${incident["Issued by"]}
+Area: ${incident["Area/ Location"]}
+Description: ${incident["Describe the potential hazard or concern and potential outcome"]}
+Observation Date: ${incident["When you observed"]}
+
+Please review and take necessary action using the following link:
+${updateLink}
+
+Regards,
+Safety Portal`,
+        },
+        toRecipients: [
+          {
+            emailAddress: {
+              address: incident["Issued to"],
+            },
+          },
+        ],
+      },
+      saveToSentItems: true,
+    };
+
+    await axios.post("https://graph.microsoft.com/v1.0/me/sendMail", emailData, {
+      headers: {
+        Authorization: `Bearer ${userToken}`,
+        "Content-Type": "application/json",
+      },
+    });
+
+    console.log("✅ Email sent successfully");
+  } catch (error) {
+    console.error("❌ Error sending email via Microsoft Graph:");
+    if (error.response) {
+      console.error("Status:", error.response.status);
+      console.error("Response Data:", error.response.data);
+    } else {
+      console.error("Error:", error.message);
+    }
+  }
+};
+
+// Read existing Excel
+const readExcelData = () => {
+  if (fs.existsSync(excelFilePath)) {
+    const workbook = XLSX.readFile(excelFilePath);
+    const worksheet = workbook.Sheets[sheetName];
+    return XLSX.utils.sheet_to_json(worksheet);
+  }
+  return [];
+};
+
+// Write Excel
+const writeExcelData = (data) => {
+  const worksheet = XLSX.utils.json_to_sheet(data);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, sheetName);
+  XLSX.writeFile(workbook, excelFilePath);
+};
+
+// Report Incident API
+app.post("/report-incident", async (req, res) => {
+  try {
+    const {
+      issuedBy,
+      issuedTo,
+      observedDate,
+      area,
+      observationType,
+      personInvolved,
+      hazardDescription,
+      imageLink,
+    } = req.body;
+
+    const userToken = req.headers.authorization?.split(" ")[1];
+    if (!userToken) return res.status(401).json({ error: "Unauthorized. No token." });
+
+    const now = new Date();
+    const incidentId = uuidv4();
+
+    const incident = {
+      incidentId,
+      Timestamp: now.toLocaleString(),
+      "Issued by": issuedBy,
+      "Issued to": issuedTo,
+      "When you observed": observedDate,
+      "Area/ Location": area,
+      "Observation related to": observationType,
+      "Name of person in case Unsafe Act reporting": personInvolved,
+      "Describe the potential hazard or concern and potential outcome": hazardDescription,
+      "Attach supporting photographs if any": imageLink,
+      "Recommendations for future prevention": "",
+      Status: "Pending",
+      "Action taken on": "",
+      "Describe action taken": "",
+    };
+
+    const data = readExcelData();
+    data.push(incident);
+    writeExcelData(data);
+
+    await sendEmailViaGraph(userToken, incidentId, incident);
+
+    res.json({ message: "Incident reported and email sent successfully." });
+  } catch (error) {
+    console.error("❌ Error in /report-incident:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+});
+
+// Update Incident API
+app.post("/update-incident/:incidentId", (req, res) => {
+  try {
+    const { incidentId } = req.params;
+    const { recommendations, status, actionTakenOn, actionDescription } = req.body;
+
+    const data = readExcelData();
+    const index = data.findIndex((row) => row.incidentId === incidentId);
+
+    if (index === -1) return res.status(404).json({ error: "Incident not found." });
+
+    data[index]["Recommendations for future prevention"] = recommendations;
+    data[index].Status = status;
+    data[index]["Action taken on"] = actionTakenOn;
+    data[index]["Describe action taken"] = actionDescription;
+
+    writeExcelData(data);
+
+    res.json({ message: "Incident updated successfully." });
+  } catch (error) {
+    console.error("❌ Error in /update-incident:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+});
+
+// Health check
+app.get("/api/check-status", (req, res) => {
+  res.json({ status: "OK" });
+});
+
+app.listen(port, () => {
+  console.log(`✅ Server running at http://localhost:${port}`);
+});

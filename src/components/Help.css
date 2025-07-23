@@ -1,0 +1,80 @@
+.help-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .help-title {
+    font-size: 28px;
+    color: #005a9e;
+    font-weight: bold;
+  }
+  
+  .help-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .faq-section, .contact-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-section h2, .contact-section h2 {
+    font-size: 20px;
+    color: #005a9e;
+    margin-bottom: 10px;
+  }
+  
+  .faq-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .contact-section p {
+    font-size: 14px;
+  }
+  
+  .contact-section a {
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .back-button {
+    background: #0078d4;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .back-button:hover {
+    background: #005a9e;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,66 @@
+.portable-tools-form {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .portable-tools-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .tool-section {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .tool-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    text-align: left;
+  }
+  
+  select, input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
